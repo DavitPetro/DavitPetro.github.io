@@ -1,0 +1,49 @@
+body {
+    background-color:#e2e9ee;
+    height: 3000px;
+}
+
+nav h4 {
+    color: white;
+    text-align: center;
+    width: 120px;
+}
+
+.navbar-dark {
+    background: #0f246b;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.fab {
+    margin-left: 20px;
+    color: rgba(255,255,255,.55);
+    transition: color 0.3s;  
+}
+
+.fab:hover {
+    color: rgba(255,255,255,.8);
+}
+
+#git-btn {
+    margin-right: 20px;
+}
+
+#up-arrow {
+    position: fixed;
+    right: 40px;
+    bottom: 80px;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+#up-arrow a {
+    color: rgba(15, 36, 107, .55);
+    transition: color 0.3s;
+}
+
+#up-arrow a:hover {
+    color: rgba(15, 36, 107, .8);
+}
