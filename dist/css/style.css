@@ -9,6 +9,13 @@ nav h4 {
     width: 120px;
 }
 
+header {
+    padding: 25px 10px 25px 10px;
+    color: white;
+    background: #081541;
+    box-shadow: 0px 3px 40px #060b1d;
+}
+
 .navbar-dark {
     background: #0f246b;
 }
@@ -17,8 +24,19 @@ nav h4 {
     margin-left: 20px;
 }
 
+.logo {
+    height: 120px;
+    width: 120px;
+}
+
+.pfp {
+    height: 75%;
+    width: 75%;
+    border-radius: 3px;
+}
+
 .fab {
-    margin-left: 20px;
+    margin-left: 1rem;
     color: rgba(255,255,255,.55);
     transition: color 0.3s;  
 }
@@ -27,8 +45,31 @@ nav h4 {
     color: rgba(255,255,255,.8);
 }
 
+.heading {
+    margin-top: 0.5rem;
+    border-bottom: 1px solid #565c70;
+}
+
+.head-title {
+    color: #081541;
+}
+
+.card {
+    margin-top: 0.5rem;
+    background: #e2e9ee;
+}
+
+.cw-col {
+    margin-left: 0.5rem;
+    font-size: 10pt;
+}
+
+.languages {
+    font-size: 14pt;
+}
+
 #git-btn {
-    margin-right: 20px;
+    margin-right: 1rem;
 }
 
 #up-arrow {
