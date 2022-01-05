@@ -1,6 +1,5 @@
 body {
     background-color:#e2e9ee;
-    height: 3000px;
 }
 
 nav h4 {
@@ -16,6 +15,10 @@ header {
     box-shadow: 0px 3px 40px #060b1d;
 }
 
+.form-group {
+    padding: 10px;
+}
+
 .navbar-dark {
     background: #0f246b;
 }
@@ -27,6 +30,10 @@ header {
 .logo {
     height: 120px;
     width: 120px;
+}
+
+.stg-logo {
+    height: 120px;
 }
 
 .pfp {
@@ -45,8 +52,7 @@ header {
     color: rgba(255,255,255,.8);
 }
 
-.heading {
-    margin-top: 0.5rem;
+.heading, .separate {
     border-bottom: 1px solid #565c70;
 }
 
@@ -68,6 +74,33 @@ header {
     font-size: 14pt;
 }
 
+.responsibilitites {
+    font-size: 12pt;
+}
+
+.btn-primary {
+    color: #e2e9ee;
+    background: rgba(15, 36, 107, .8);
+    transition: all 0.3s;
+}
+.btn-primary:hover {
+    color: #e2e9ee;
+    background: rgba(15, 36, 107, 1);
+}
+
+.modal-header {
+    color: #e2e9ee;
+    background: #081541;
+}
+
+.modal-content {
+    background: #e2e9ee;
+}
+
+.fa-times {
+    color: #e2e9ee;
+}
+
 #git-btn {
     margin-right: 1rem;
 }
@@ -87,4 +120,13 @@ header {
 
 #up-arrow a:hover {
     color: rgba(15, 36, 107, .8);
+}
+
+#contact-btn {
+    font-size: 16pt;
+    transition: all 0.3s;
+}
+
+#contact-btn:hover {
+    font-size: 16.5pt;
 }
