@@ -1,3 +1,9 @@
+/*
+ * Author: Davit Petrosyan
+ * Filename: app.js
+ * Description: A script file for my website
+ */
+
 // DOM settings
 
 var scrollButton = document.getElementById("up-arrow");
