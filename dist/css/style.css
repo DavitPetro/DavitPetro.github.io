@@ -29,6 +29,10 @@ header {
     background: #0f246b;
 }
 
+.nav-link {
+    cursor: pointer;
+}
+
 .nav-item {
     margin-left: 20px;
 }
@@ -95,7 +99,7 @@ header {
 }
 
 .modal-header {
-    color: #e2e9ee;
+    color: white;
     background: #081541;
 }
 
