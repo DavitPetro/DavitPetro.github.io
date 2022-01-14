@@ -107,6 +107,14 @@ header {
     background: #e2e9ee;
 }
 
+.alert {
+    position: fixed;
+    top: 10%;
+    left: 15%;
+    right: 15%;
+    z-index: 2;
+}
+
 .fa-times {
     color: #e2e9ee;
 }

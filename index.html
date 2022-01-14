@@ -68,7 +68,7 @@
                 </div>
         </header>
         <!-- Page Content -->
-        <div class="container">
+        <div id="content" class="container">
             <div id="education" class="heading">
                 <h3 class="head-title">Education</h3>
             </div>
@@ -243,24 +243,24 @@
                         <button type="button" class="btn" data-bs-dismiss="modal"><i class="fas fa-times"></i></button>
                     </div>
                     <div class="modal-body">
-                        <form class="row g-3">
+                        <form id="contact-form" class="row g-3" action="https://formspree.io/f/mzbodzll" method="POST">
                             <div class="col-md-6">
-                                <input type="text" id="firstname" class="form-control" name="firstname" placeholder="First Name" required>
+                                <input type="text" id="firstname" class="form-control" name="First Name" placeholder="First Name" required>
                             </div>
                             <div class="col-md-6">
-                                <input type="text" id="lastname" class="form-control" name="lastname" placeholder="Last Name" required>
+                                <input type="text" id="lastname" class="form-control" name="Last Name" placeholder="Last Name" required>
                             </div>
                             <div class="col-md-6">
-                                <input type="email" id="email" class="form-control" name="email" placeholder="Email" required>
+                                <input type="email" id="email" class="form-control" name="E-mail" placeholder="Email" required>
                             </div>
                             <div class="col-md-6">
-                                <input type="tel" id="phone" class="form-control" name="phone" placeholder="Phone # (optional)">
+                                <input type="tel" id="phone" class="form-control" name="Phone Number" placeholder="Phone # (optional)">
                             </div>
                             <div class="col-12">
-                                <input type="text" id="subject" class="form-control" name="subject" placeholder="Subject">
+                                <input type="text" id="subject" class="form-control" name="Subject" placeholder="Subject">
                             </div>
                             <div class="col-12">
-                                <textarea id="message" class="form-control" name="message" placeholder="Type Message Here..." rows="3"></textarea>
+                                <textarea id="message" class="form-control" name="Message" placeholder="Type Message Here..." rows="3" required></textarea>
                             </div>
                             <div class="col-12">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
