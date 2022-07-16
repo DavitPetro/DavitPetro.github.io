@@ -119,6 +119,10 @@ header {
     color: #e2e9ee;
 }
 
+#education {
+    margin-top: 20px;
+}
+
 #git-btn {
     margin-right: 1rem;
 }
