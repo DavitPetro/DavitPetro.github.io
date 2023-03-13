@@ -42,6 +42,11 @@ header {
     width: 120px;
 }
 
+.harley-logo {
+    height: 80px;
+    width: 100px;
+}
+
 .stg-logo {
     height: 120px;
 }
@@ -62,8 +67,12 @@ header {
     color: rgba(255,255,255,.8);
 }
 
-.heading, .separate {
-    border-bottom: 1px solid #565c70;
+.heading {
+    border-bottom: 2px solid #565c70;
+}
+
+.separate {
+    border-bottom: 1px solid rgba(86,92,112,.6);
 }
 
 .head-title {
